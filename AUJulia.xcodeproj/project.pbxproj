@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0D66741C1C56FA00737948 /* libcholmod.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66651C1C557A00737948 /* libcholmod.dylib */; };
+		2B0D66751C1C56FA00737948 /* libcolamd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66711C1C564000737948 /* libcolamd.dylib */; };
+		2B0D66761C1C56FA00737948 /* libdSFMT.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66671C1C557A00737948 /* libdSFMT.dylib */; };
+		2B0D66771C1C56FA00737948 /* libjulia.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9B28421C1462E3003CC276 /* libjulia.dylib */; };
+		2B0D66781C1C56FA00737948 /* libopenblas64_.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66661C1C557A00737948 /* libopenblas64_.dylib */; };
+		2B0D66791C1C56FA00737948 /* libpcre2-8.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66681C1C557A00737948 /* libpcre2-8.0.dylib */; };
+		2B0D667A1C1C56FA00737948 /* sys.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66621C1C53E400737948 /* sys.dylib */; };
+		2B0D66A41C1C56FB00737948 /* libamd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D667C1C1C56FB00737948 /* libamd.dylib */; };
+		2B0D66A51C1C56FB00737948 /* libarpack.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D667D1C1C56FB00737948 /* libarpack.2.dylib */; };
+		2B0D66A61C1C56FB00737948 /* libcamd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D667E1C1C56FB00737948 /* libcamd.dylib */; };
+		2B0D66A71C1C56FB00737948 /* libccalltest.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D667F1C1C56FB00737948 /* libccalltest.dylib */; };
+		2B0D66A91C1C56FB00737948 /* libccolamd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66811C1C56FB00737948 /* libccolamd.dylib */; };
+		2B0D66AA1C1C56FB00737948 /* libfftw3_threads.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66821C1C56FB00737948 /* libfftw3_threads.3.dylib */; };
+		2B0D66AB1C1C56FB00737948 /* libfftw3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66831C1C56FB00737948 /* libfftw3.3.dylib */; };
+		2B0D66AC1C1C56FB00737948 /* libfftw3f_threads.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66841C1C56FB00737948 /* libfftw3f_threads.3.dylib */; };
+		2B0D66AD1C1C56FB00737948 /* libfftw3f.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66851C1C56FB00737948 /* libfftw3f.3.dylib */; };
+		2B0D66AE1C1C56FB00737948 /* libgcc_s.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66861C1C56FB00737948 /* libgcc_s.1.dylib */; };
+		2B0D66AF1C1C56FB00737948 /* libgfortran.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66871C1C56FB00737948 /* libgfortran.3.dylib */; };
+		2B0D66B01C1C56FB00737948 /* libgit2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66881C1C56FB00737948 /* libgit2.dylib */; };
+		2B0D66B11C1C56FB00737948 /* libgmp.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66891C1C56FB00737948 /* libgmp.10.dylib */; };
+		2B0D66B21C1C56FB00737948 /* libjulia-debug.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D668A1C1C56FB00737948 /* libjulia-debug.dylib */; };
+		2B0D66B51C1C56FB00737948 /* libmpfr.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D668D1C1C56FB00737948 /* libmpfr.4.dylib */; };
+		2B0D66B61C1C56FB00737948 /* libpcre2-posix.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D668E1C1C56FB00737948 /* libpcre2-posix.0.dylib */; };
+		2B0D66B71C1C56FB00737948 /* libquadmath.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D668F1C1C56FB00737948 /* libquadmath.0.dylib */; };
+		2B0D66B81C1C56FB00737948 /* libRmath-julia.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66901C1C56FB00737948 /* libRmath-julia.dylib */; };
+		2B0D66B91C1C56FB00737948 /* libspqr.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66911C1C56FB00737948 /* libspqr.dylib */; };
+		2B0D66BA1C1C56FB00737948 /* libsuitesparse_wrapper.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66921C1C56FB00737948 /* libsuitesparse_wrapper.dylib */; };
+		2B0D66BB1C1C56FB00737948 /* libsuitesparseconfig.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66931C1C56FB00737948 /* libsuitesparseconfig.dylib */; };
+		2B0D66BC1C1C56FB00737948 /* libumfpack.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66941C1C56FB00737948 /* libumfpack.dylib */; };
+		2B0D66BD1C1C56FB00737948 /* sys-debug.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0D66951C1C56FB00737948 /* sys-debug.dylib */; };
+		2B0D67151C1C573600737948 /* arraylist.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66FB1C1C573600737948 /* arraylist.h */; };
+		2B0D67161C1C573600737948 /* bitvector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66FC1C1C573600737948 /* bitvector.h */; };
+		2B0D67171C1C573600737948 /* dirpath.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66FD1C1C573600737948 /* dirpath.h */; };
+		2B0D67181C1C573600737948 /* dtypes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66FE1C1C573600737948 /* dtypes.h */; };
+		2B0D67191C1C573600737948 /* END.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66FF1C1C573600737948 /* END.h */; };
+		2B0D671A1C1C573600737948 /* ENTRY.amd64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67001C1C573600737948 /* ENTRY.amd64.h */; };
+		2B0D671B1C1C573600737948 /* ENTRY.i387.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67011C1C573600737948 /* ENTRY.i387.h */; };
+		2B0D671C1C1C573600737948 /* hashing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67021C1C573600737948 /* hashing.h */; };
+		2B0D671D1C1C573600737948 /* htable.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67031C1C573600737948 /* htable.h */; };
+		2B0D671E1C1C573600737948 /* ios.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67041C1C573600737948 /* ios.h */; };
+		2B0D671F1C1C573600737948 /* julia_version.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67051C1C573600737948 /* julia_version.h */; };
+		2B0D67201C1C573600737948 /* julia.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67061C1C573600737948 /* julia.h */; };
+		2B0D67211C1C573600737948 /* libsupport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67071C1C573600737948 /* libsupport.h */; };
+		2B0D67221C1C573600737948 /* MurmurHash3.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67081C1C573600737948 /* MurmurHash3.h */; };
+		2B0D67231C1C573600737948 /* options.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67091C1C573600737948 /* options.h */; };
+		2B0D67241C1C573600737948 /* platform.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D670A1C1C573600737948 /* platform.h */; };
+		2B0D67251C1C573600737948 /* ptrhash.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D670B1C1C573600737948 /* ptrhash.h */; };
+		2B0D67261C1C573600737948 /* strtod.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D670C1C1C573600737948 /* strtod.h */; };
+		2B0D67271C1C573600737948 /* timefuncs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D670D1C1C573600737948 /* timefuncs.h */; };
+		2B0D67281C1C573600737948 /* utf8.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D670E1C1C573600737948 /* utf8.h */; };
+		2B0D67291C1C573600737948 /* utils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D670F1C1C573600737948 /* utils.h */; };
+		2B0D672A1C1C573600737948 /* uv-darwin.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67101C1C573600737948 /* uv-darwin.h */; };
+		2B0D672B1C1C573600737948 /* uv-errno.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67111C1C573600737948 /* uv-errno.h */; };
+		2B0D672C1C1C573600737948 /* uv-unix.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67121C1C573600737948 /* uv-unix.h */; };
+		2B0D672D1C1C573600737948 /* uv-version.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67131C1C573600737948 /* uv-version.h */; };
+		2B0D672E1C1C573600737948 /* uv.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D67141C1C573600737948 /* uv.h */; };
+		2B0D67331C1C6A8200737948 /* libamd.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D667C1C1C56FB00737948 /* libamd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67341C1C6A8200737948 /* libarpack.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D667D1C1C56FB00737948 /* libarpack.2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67351C1C6A8200737948 /* libcamd.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D667E1C1C56FB00737948 /* libcamd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67361C1C6A8200737948 /* libccalltest.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D667F1C1C56FB00737948 /* libccalltest.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67371C1C6A8200737948 /* libccalltest.dylib.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66801C1C56FB00737948 /* libccalltest.dylib.dSYM */; };
+		2B0D67381C1C6A8200737948 /* libccolamd.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66811C1C56FB00737948 /* libccolamd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67391C1C6A8200737948 /* libfftw3_threads.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66821C1C56FB00737948 /* libfftw3_threads.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D673A1C1C6A8200737948 /* libfftw3.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66831C1C56FB00737948 /* libfftw3.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D673B1C1C6A8200737948 /* libfftw3f_threads.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66841C1C56FB00737948 /* libfftw3f_threads.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D673C1C1C6A8200737948 /* libfftw3f.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66851C1C56FB00737948 /* libfftw3f.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D673D1C1C6A8200737948 /* libgcc_s.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66861C1C56FB00737948 /* libgcc_s.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D673E1C1C6A8200737948 /* libgfortran.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66871C1C56FB00737948 /* libgfortran.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D673F1C1C6A8200737948 /* libgit2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66881C1C56FB00737948 /* libgit2.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67401C1C6A8200737948 /* libgmp.10.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66891C1C56FB00737948 /* libgmp.10.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67411C1C6A8200737948 /* libjulia-debug.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D668A1C1C56FB00737948 /* libjulia-debug.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67421C1C6A8200737948 /* libjulia-debug.dylib.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D668B1C1C56FB00737948 /* libjulia-debug.dylib.dSYM */; };
+		2B0D67431C1C6A8200737948 /* libjulia.dylib.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D668C1C1C56FB00737948 /* libjulia.dylib.dSYM */; };
+		2B0D67441C1C6A8200737948 /* libmpfr.4.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D668D1C1C56FB00737948 /* libmpfr.4.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67451C1C6A8200737948 /* libpcre2-posix.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D668E1C1C56FB00737948 /* libpcre2-posix.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67461C1C6A8200737948 /* libquadmath.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D668F1C1C56FB00737948 /* libquadmath.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67471C1C6A8200737948 /* libRmath-julia.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66901C1C56FB00737948 /* libRmath-julia.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67481C1C6A8200737948 /* libspqr.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66911C1C56FB00737948 /* libspqr.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67491C1C6A8200737948 /* libsuitesparse_wrapper.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66921C1C56FB00737948 /* libsuitesparse_wrapper.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D674A1C1C6A8200737948 /* libsuitesparseconfig.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66931C1C56FB00737948 /* libsuitesparseconfig.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D674B1C1C6A8200737948 /* libumfpack.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66941C1C56FB00737948 /* libumfpack.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D674C1C1C6A8200737948 /* sys-debug.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66951C1C56FB00737948 /* sys-debug.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67541C1C6A8200737948 /* libopenlibm.dylib.1.0 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D669D1C1C56FB00737948 /* libopenlibm.dylib.1.0 */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67571C1C6A8200737948 /* libopenspecfun.dylib.1.0 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66A01C1C56FB00737948 /* libopenspecfun.dylib.1.0 */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D675B1C1C6A8200737948 /* libcolamd.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66711C1C564000737948 /* libcolamd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D675C1C1C6A8200737948 /* libcholmod.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66651C1C557A00737948 /* libcholmod.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D675D1C1C6A8200737948 /* libopenblas64_.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66661C1C557A00737948 /* libopenblas64_.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D675E1C1C6A8200737948 /* libdSFMT.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66671C1C557A00737948 /* libdSFMT.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D675F1C1C6A8200737948 /* libpcre2-8.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66681C1C557A00737948 /* libpcre2-8.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67601C1C6A8200737948 /* sys.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B0D66621C1C53E400737948 /* sys.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B0D67611C1C6A8200737948 /* libjulia.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B9B28421C1462E3003CC276 /* libjulia.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2B56965A1C1D9E3E00238846 /* aujulia.jl in Resources */ = {isa = PBXBuildFile; fileRef = 2B5696591C1D9E3D00238846 /* aujulia.jl */; };
+		2B56965D1C1DA98F00238846 /* aujulia.jl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B5696591C1D9E3D00238846 /* aujulia.jl */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2BD1645E1C134FF1002B5BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD1645D1C134FF1002B5BC5 /* AppDelegate.swift */; };
+		2BD164601C134FF1002B5BC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD1645F1C134FF1002B5BC5 /* ViewController.swift */; };
+		2BD164621C134FF1002B5BC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD164611C134FF1002B5BC5 /* Assets.xcassets */; };
+		2BD164651C134FF1002B5BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD164631C134FF1002B5BC5 /* Main.storyboard */; };
+		2BD164741C13501B002B5BC5 /* AUJuliaFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD164731C13501B002B5BC5 /* AUJuliaFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD164781C13501B002B5BC5 /* AUJuliaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD164711C13501B002B5BC5 /* AUJuliaFramework.framework */; };
+		2BD164791C13501B002B5BC5 /* AUJuliaFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD164711C13501B002B5BC5 /* AUJuliaFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2BD164811C13505E002B5BC5 /* JuliaOscillatorKernel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2BD1647E1C13505E002B5BC5 /* JuliaOscillatorKernel.hpp */; };
+		2BD164821C13505E002B5BC5 /* JuliaOscillator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BD1647F1C13505E002B5BC5 /* JuliaOscillator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BD164831C13505E002B5BC5 /* JuliaOscillator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BD164801C13505E002B5BC5 /* JuliaOscillator.mm */; };
+		2BD164881C13506B002B5BC5 /* DSPKernel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2BD164841C13506B002B5BC5 /* DSPKernel.hpp */; };
+		2BD164891C13506B002B5BC5 /* DSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BD164851C13506B002B5BC5 /* DSPKernel.mm */; };
+		2BD1648A1C13506B002B5BC5 /* ParameterRamper.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2BD164861C13506B002B5BC5 /* ParameterRamper.hpp */; };
+		2BD164901C1350B2002B5BC5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD1648D1C1350B2002B5BC5 /* Accelerate.framework */; };
+		2BD164911C1350B2002B5BC5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD1648E1C1350B2002B5BC5 /* AudioToolbox.framework */; };
+		2BD164921C1350B2002B5BC5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD1648F1C1350B2002B5BC5 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BD164761C13501B002B5BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD164521C134FF0002B5BC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD164701C13501B002B5BC5;
+			remoteInfo = AUJuliaFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B0D67321C1C6A7200737948 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = julia/lib;
+			dstSubfolderSpec = 7;
+			files = (
+				2B0D67331C1C6A8200737948 /* libamd.dylib in CopyFiles */,
+				2B0D67341C1C6A8200737948 /* libarpack.2.dylib in CopyFiles */,
+				2B0D67351C1C6A8200737948 /* libcamd.dylib in CopyFiles */,
+				2B0D67361C1C6A8200737948 /* libccalltest.dylib in CopyFiles */,
+				2B0D67371C1C6A8200737948 /* libccalltest.dylib.dSYM in CopyFiles */,
+				2B0D67381C1C6A8200737948 /* libccolamd.dylib in CopyFiles */,
+				2B0D67391C1C6A8200737948 /* libfftw3_threads.3.dylib in CopyFiles */,
+				2B0D673A1C1C6A8200737948 /* libfftw3.3.dylib in CopyFiles */,
+				2B0D673B1C1C6A8200737948 /* libfftw3f_threads.3.dylib in CopyFiles */,
+				2B0D673C1C1C6A8200737948 /* libfftw3f.3.dylib in CopyFiles */,
+				2B0D673D1C1C6A8200737948 /* libgcc_s.1.dylib in CopyFiles */,
+				2B0D673E1C1C6A8200737948 /* libgfortran.3.dylib in CopyFiles */,
+				2B0D673F1C1C6A8200737948 /* libgit2.dylib in CopyFiles */,
+				2B0D67401C1C6A8200737948 /* libgmp.10.dylib in CopyFiles */,
+				2B0D67411C1C6A8200737948 /* libjulia-debug.dylib in CopyFiles */,
+				2B0D67421C1C6A8200737948 /* libjulia-debug.dylib.dSYM in CopyFiles */,
+				2B0D67431C1C6A8200737948 /* libjulia.dylib.dSYM in CopyFiles */,
+				2B0D67441C1C6A8200737948 /* libmpfr.4.dylib in CopyFiles */,
+				2B0D67451C1C6A8200737948 /* libpcre2-posix.0.dylib in CopyFiles */,
+				2B0D67461C1C6A8200737948 /* libquadmath.0.dylib in CopyFiles */,
+				2B0D67471C1C6A8200737948 /* libRmath-julia.dylib in CopyFiles */,
+				2B0D67481C1C6A8200737948 /* libspqr.dylib in CopyFiles */,
+				2B0D67491C1C6A8200737948 /* libsuitesparse_wrapper.dylib in CopyFiles */,
+				2B0D674A1C1C6A8200737948 /* libsuitesparseconfig.dylib in CopyFiles */,
+				2B0D674B1C1C6A8200737948 /* libumfpack.dylib in CopyFiles */,
+				2B0D674C1C1C6A8200737948 /* sys-debug.dylib in CopyFiles */,
+				2B0D67541C1C6A8200737948 /* libopenlibm.dylib.1.0 in CopyFiles */,
+				2B0D67571C1C6A8200737948 /* libopenspecfun.dylib.1.0 in CopyFiles */,
+				2B0D675B1C1C6A8200737948 /* libcolamd.dylib in CopyFiles */,
+				2B0D675C1C1C6A8200737948 /* libcholmod.dylib in CopyFiles */,
+				2B0D675D1C1C6A8200737948 /* libopenblas64_.dylib in CopyFiles */,
+				2B0D675E1C1C6A8200737948 /* libdSFMT.dylib in CopyFiles */,
+				2B0D675F1C1C6A8200737948 /* libpcre2-8.0.dylib in CopyFiles */,
+				2B0D67601C1C6A8200737948 /* sys.dylib in CopyFiles */,
+				2B0D67611C1C6A8200737948 /* libjulia.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B56965B1C1DA87500238846 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				2B56965D1C1DA98F00238846 /* aujulia.jl in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9B28461C146509003CC276 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = julia/include;
+			dstSubfolderSpec = 7;
+			files = (
+				2B0D67151C1C573600737948 /* arraylist.h in CopyFiles */,
+				2B0D67161C1C573600737948 /* bitvector.h in CopyFiles */,
+				2B0D67171C1C573600737948 /* dirpath.h in CopyFiles */,
+				2B0D67181C1C573600737948 /* dtypes.h in CopyFiles */,
+				2B0D67191C1C573600737948 /* END.h in CopyFiles */,
+				2B0D671A1C1C573600737948 /* ENTRY.amd64.h in CopyFiles */,
+				2B0D671B1C1C573600737948 /* ENTRY.i387.h in CopyFiles */,
+				2B0D671C1C1C573600737948 /* hashing.h in CopyFiles */,
+				2B0D671D1C1C573600737948 /* htable.h in CopyFiles */,
+				2B0D671E1C1C573600737948 /* ios.h in CopyFiles */,
+				2B0D671F1C1C573600737948 /* julia_version.h in CopyFiles */,
+				2B0D67201C1C573600737948 /* julia.h in CopyFiles */,
+				2B0D67211C1C573600737948 /* libsupport.h in CopyFiles */,
+				2B0D67221C1C573600737948 /* MurmurHash3.h in CopyFiles */,
+				2B0D67231C1C573600737948 /* options.h in CopyFiles */,
+				2B0D67241C1C573600737948 /* platform.h in CopyFiles */,
+				2B0D67251C1C573600737948 /* ptrhash.h in CopyFiles */,
+				2B0D67261C1C573600737948 /* strtod.h in CopyFiles */,
+				2B0D67271C1C573600737948 /* timefuncs.h in CopyFiles */,
+				2B0D67281C1C573600737948 /* utf8.h in CopyFiles */,
+				2B0D67291C1C573600737948 /* utils.h in CopyFiles */,
+				2B0D672A1C1C573600737948 /* uv-darwin.h in CopyFiles */,
+				2B0D672B1C1C573600737948 /* uv-errno.h in CopyFiles */,
+				2B0D672C1C1C573600737948 /* uv-unix.h in CopyFiles */,
+				2B0D672D1C1C573600737948 /* uv-version.h in CopyFiles */,
+				2B0D672E1C1C573600737948 /* uv.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD1647D1C13501B002B5BC5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2BD164791C13501B002B5BC5 /* AUJuliaFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2B0D66621C1C53E400737948 /* sys.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = sys.dylib; path = julia/lib/sys.dylib; sourceTree = "<group>"; };
+		2B0D66651C1C557A00737948 /* libcholmod.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcholmod.dylib; path = julia/lib/libcholmod.dylib; sourceTree = "<group>"; };
+		2B0D66661C1C557A00737948 /* libopenblas64_.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenblas64_.dylib; path = julia/lib/libopenblas64_.dylib; sourceTree = "<group>"; };
+		2B0D66671C1C557A00737948 /* libdSFMT.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libdSFMT.dylib; path = julia/lib/libdSFMT.dylib; sourceTree = "<group>"; };
+		2B0D66681C1C557A00737948 /* libpcre2-8.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpcre2-8.0.dylib"; path = "julia/lib/libpcre2-8.0.dylib"; sourceTree = "<group>"; };
+		2B0D66711C1C564000737948 /* libcolamd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcolamd.dylib; path = julia/lib/libcolamd.dylib; sourceTree = "<group>"; };
+		2B0D667C1C1C56FB00737948 /* libamd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libamd.dylib; path = julia/lib/libamd.dylib; sourceTree = "<group>"; };
+		2B0D667D1C1C56FB00737948 /* libarpack.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libarpack.2.dylib; path = julia/lib/libarpack.2.dylib; sourceTree = "<group>"; };
+		2B0D667E1C1C56FB00737948 /* libcamd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcamd.dylib; path = julia/lib/libcamd.dylib; sourceTree = "<group>"; };
+		2B0D667F1C1C56FB00737948 /* libccalltest.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libccalltest.dylib; path = julia/lib/libccalltest.dylib; sourceTree = "<group>"; };
+		2B0D66801C1C56FB00737948 /* libccalltest.dylib.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = libccalltest.dylib.dSYM; path = julia/lib/libccalltest.dylib.dSYM; sourceTree = "<group>"; };
+		2B0D66811C1C56FB00737948 /* libccolamd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libccolamd.dylib; path = julia/lib/libccolamd.dylib; sourceTree = "<group>"; };
+		2B0D66821C1C56FB00737948 /* libfftw3_threads.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfftw3_threads.3.dylib; path = julia/lib/libfftw3_threads.3.dylib; sourceTree = "<group>"; };
+		2B0D66831C1C56FB00737948 /* libfftw3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfftw3.3.dylib; path = julia/lib/libfftw3.3.dylib; sourceTree = "<group>"; };
+		2B0D66841C1C56FB00737948 /* libfftw3f_threads.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfftw3f_threads.3.dylib; path = julia/lib/libfftw3f_threads.3.dylib; sourceTree = "<group>"; };
+		2B0D66851C1C56FB00737948 /* libfftw3f.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfftw3f.3.dylib; path = julia/lib/libfftw3f.3.dylib; sourceTree = "<group>"; };
+		2B0D66861C1C56FB00737948 /* libgcc_s.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgcc_s.1.dylib; path = julia/lib/libgcc_s.1.dylib; sourceTree = "<group>"; };
+		2B0D66871C1C56FB00737948 /* libgfortran.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgfortran.3.dylib; path = julia/lib/libgfortran.3.dylib; sourceTree = "<group>"; };
+		2B0D66881C1C56FB00737948 /* libgit2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgit2.dylib; path = julia/lib/libgit2.dylib; sourceTree = "<group>"; };
+		2B0D66891C1C56FB00737948 /* libgmp.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmp.10.dylib; path = julia/lib/libgmp.10.dylib; sourceTree = "<group>"; };
+		2B0D668A1C1C56FB00737948 /* libjulia-debug.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libjulia-debug.dylib"; path = "julia/lib/libjulia-debug.dylib"; sourceTree = "<group>"; };
+		2B0D668B1C1C56FB00737948 /* libjulia-debug.dylib.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = "libjulia-debug.dylib.dSYM"; path = "julia/lib/libjulia-debug.dylib.dSYM"; sourceTree = "<group>"; };
+		2B0D668C1C1C56FB00737948 /* libjulia.dylib.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = libjulia.dylib.dSYM; path = julia/lib/libjulia.dylib.dSYM; sourceTree = "<group>"; };
+		2B0D668D1C1C56FB00737948 /* libmpfr.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmpfr.4.dylib; path = julia/lib/libmpfr.4.dylib; sourceTree = "<group>"; };
+		2B0D668E1C1C56FB00737948 /* libpcre2-posix.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpcre2-posix.0.dylib"; path = "julia/lib/libpcre2-posix.0.dylib"; sourceTree = "<group>"; };
+		2B0D668F1C1C56FB00737948 /* libquadmath.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libquadmath.0.dylib; path = julia/lib/libquadmath.0.dylib; sourceTree = "<group>"; };
+		2B0D66901C1C56FB00737948 /* libRmath-julia.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libRmath-julia.dylib"; path = "julia/lib/libRmath-julia.dylib"; sourceTree = "<group>"; };
+		2B0D66911C1C56FB00737948 /* libspqr.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libspqr.dylib; path = julia/lib/libspqr.dylib; sourceTree = "<group>"; };
+		2B0D66921C1C56FB00737948 /* libsuitesparse_wrapper.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsuitesparse_wrapper.dylib; path = julia/lib/libsuitesparse_wrapper.dylib; sourceTree = "<group>"; };
+		2B0D66931C1C56FB00737948 /* libsuitesparseconfig.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsuitesparseconfig.dylib; path = julia/lib/libsuitesparseconfig.dylib; sourceTree = "<group>"; };
+		2B0D66941C1C56FB00737948 /* libumfpack.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libumfpack.dylib; path = julia/lib/libumfpack.dylib; sourceTree = "<group>"; };
+		2B0D66951C1C56FB00737948 /* sys-debug.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "sys-debug.dylib"; path = "julia/lib/sys-debug.dylib"; sourceTree = "<group>"; };
+		2B0D66961C1C56FB00737948 /* libarpack.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libarpack.2.dylib; path = julia/lib/libarpack.2.dylib; sourceTree = "<group>"; };
+		2B0D66971C1C56FB00737948 /* libfftw3_threads.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfftw3_threads.3.dylib; path = julia/lib/libfftw3_threads.3.dylib; sourceTree = "<group>"; };
+		2B0D66981C1C56FB00737948 /* libfftw3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfftw3.3.dylib; path = julia/lib/libfftw3.3.dylib; sourceTree = "<group>"; };
+		2B0D66991C1C56FB00737948 /* libfftw3f_threads.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfftw3f_threads.3.dylib; path = julia/lib/libfftw3f_threads.3.dylib; sourceTree = "<group>"; };
+		2B0D669A1C1C56FB00737948 /* libfftw3f.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfftw3f.3.dylib; path = julia/lib/libfftw3f.3.dylib; sourceTree = "<group>"; };
+		2B0D669B1C1C56FB00737948 /* libgmp.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmp.10.dylib; path = julia/lib/libgmp.10.dylib; sourceTree = "<group>"; };
+		2B0D669C1C1C56FB00737948 /* libmpfr.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmpfr.4.dylib; path = julia/lib/libmpfr.4.dylib; sourceTree = "<group>"; };
+		2B0D669D1C1C56FB00737948 /* libopenlibm.dylib.1.0 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenlibm.dylib.1.0; path = julia/lib/libopenlibm.dylib.1.0; sourceTree = "<group>"; };
+		2B0D669E1C1C56FB00737948 /* libopenlibm.dylib.1.0 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenlibm.dylib.1.0; path = julia/lib/libopenlibm.dylib.1.0; sourceTree = "<group>"; };
+		2B0D669F1C1C56FB00737948 /* libopenlibm.dylib.1.0 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenlibm.dylib.1.0; path = julia/lib/libopenlibm.dylib.1.0; sourceTree = "<group>"; };
+		2B0D66A01C1C56FB00737948 /* libopenspecfun.dylib.1.0 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenspecfun.dylib.1.0; path = julia/lib/libopenspecfun.dylib.1.0; sourceTree = "<group>"; };
+		2B0D66A11C1C56FB00737948 /* libopenspecfun.dylib.1.0 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenspecfun.dylib.1.0; path = julia/lib/libopenspecfun.dylib.1.0; sourceTree = "<group>"; };
+		2B0D66A21C1C56FB00737948 /* libopenspecfun.dylib.1.0 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopenspecfun.dylib.1.0; path = julia/lib/libopenspecfun.dylib.1.0; sourceTree = "<group>"; };
+		2B0D66A31C1C56FB00737948 /* libpcre2-posix.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libpcre2-posix.0.dylib"; path = "julia/lib/libpcre2-posix.0.dylib"; sourceTree = "<group>"; };
+		2B0D66FB1C1C573600737948 /* arraylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = arraylist.h; path = julia/include/arraylist.h; sourceTree = "<group>"; };
+		2B0D66FC1C1C573600737948 /* bitvector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bitvector.h; path = julia/include/bitvector.h; sourceTree = "<group>"; };
+		2B0D66FD1C1C573600737948 /* dirpath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dirpath.h; path = julia/include/dirpath.h; sourceTree = "<group>"; };
+		2B0D66FE1C1C573600737948 /* dtypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dtypes.h; path = julia/include/dtypes.h; sourceTree = "<group>"; };
+		2B0D66FF1C1C573600737948 /* END.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = END.h; path = julia/include/END.h; sourceTree = "<group>"; };
+		2B0D67001C1C573600737948 /* ENTRY.amd64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ENTRY.amd64.h; path = julia/include/ENTRY.amd64.h; sourceTree = "<group>"; };
+		2B0D67011C1C573600737948 /* ENTRY.i387.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ENTRY.i387.h; path = julia/include/ENTRY.i387.h; sourceTree = "<group>"; };
+		2B0D67021C1C573600737948 /* hashing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = hashing.h; path = julia/include/hashing.h; sourceTree = "<group>"; };
+		2B0D67031C1C573600737948 /* htable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = htable.h; path = julia/include/htable.h; sourceTree = "<group>"; };
+		2B0D67041C1C573600737948 /* ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ios.h; path = julia/include/ios.h; sourceTree = "<group>"; };
+		2B0D67051C1C573600737948 /* julia_version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = julia_version.h; path = julia/include/julia_version.h; sourceTree = "<group>"; };
+		2B0D67061C1C573600737948 /* julia.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = julia.h; path = julia/include/julia.h; sourceTree = "<group>"; };
+		2B0D67071C1C573600737948 /* libsupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libsupport.h; path = julia/include/libsupport.h; sourceTree = "<group>"; };
+		2B0D67081C1C573600737948 /* MurmurHash3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MurmurHash3.h; path = julia/include/MurmurHash3.h; sourceTree = "<group>"; };
+		2B0D67091C1C573600737948 /* options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = options.h; path = julia/include/options.h; sourceTree = "<group>"; };
+		2B0D670A1C1C573600737948 /* platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = platform.h; path = julia/include/platform.h; sourceTree = "<group>"; };
+		2B0D670B1C1C573600737948 /* ptrhash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ptrhash.h; path = julia/include/ptrhash.h; sourceTree = "<group>"; };
+		2B0D670C1C1C573600737948 /* strtod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = strtod.h; path = julia/include/strtod.h; sourceTree = "<group>"; };
+		2B0D670D1C1C573600737948 /* timefuncs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = timefuncs.h; path = julia/include/timefuncs.h; sourceTree = "<group>"; };
+		2B0D670E1C1C573600737948 /* utf8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = julia/include/utf8.h; sourceTree = "<group>"; };
+		2B0D670F1C1C573600737948 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = utils.h; path = julia/include/utils.h; sourceTree = "<group>"; };
+		2B0D67101C1C573600737948 /* uv-darwin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "uv-darwin.h"; path = "julia/include/uv-darwin.h"; sourceTree = "<group>"; };
+		2B0D67111C1C573600737948 /* uv-errno.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "uv-errno.h"; path = "julia/include/uv-errno.h"; sourceTree = "<group>"; };
+		2B0D67121C1C573600737948 /* uv-unix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "uv-unix.h"; path = "julia/include/uv-unix.h"; sourceTree = "<group>"; };
+		2B0D67131C1C573600737948 /* uv-version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "uv-version.h"; path = "julia/include/uv-version.h"; sourceTree = "<group>"; };
+		2B0D67141C1C573600737948 /* uv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = uv.h; path = julia/include/uv.h; sourceTree = "<group>"; };
+		2B5696591C1D9E3D00238846 /* aujulia.jl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aujulia.jl; sourceTree = "<group>"; };
+		2B9B28421C1462E3003CC276 /* libjulia.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjulia.dylib; path = julia/lib/libjulia.dylib; sourceTree = "<group>"; };
+		2BD1645A1C134FF1002B5BC5 /* AUJulia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUJulia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD1645D1C134FF1002B5BC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BD1645F1C134FF1002B5BC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BD164611C134FF1002B5BC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BD164641C134FF1002B5BC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BD164661C134FF1002B5BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD164711C13501B002B5BC5 /* AUJuliaFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AUJuliaFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD164731C13501B002B5BC5 /* AUJuliaFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUJuliaFramework.h; sourceTree = "<group>"; };
+		2BD164751C13501B002B5BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD1647E1C13505E002B5BC5 /* JuliaOscillatorKernel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JuliaOscillatorKernel.hpp; sourceTree = "<group>"; };
+		2BD1647F1C13505E002B5BC5 /* JuliaOscillator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JuliaOscillator.h; sourceTree = "<group>"; };
+		2BD164801C13505E002B5BC5 /* JuliaOscillator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JuliaOscillator.mm; sourceTree = "<group>"; };
+		2BD164841C13506B002B5BC5 /* DSPKernel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DSPKernel.hpp; sourceTree = "<group>"; };
+		2BD164851C13506B002B5BC5 /* DSPKernel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DSPKernel.mm; sourceTree = "<group>"; };
+		2BD164861C13506B002B5BC5 /* ParameterRamper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParameterRamper.hpp; sourceTree = "<group>"; };
+		2BD1648D1C1350B2002B5BC5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2BD1648E1C1350B2002B5BC5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2BD1648F1C1350B2002B5BC5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BD164571C134FF0002B5BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD164781C13501B002B5BC5 /* AUJuliaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD1646D1C13501B002B5BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0D66A41C1C56FB00737948 /* libamd.dylib in Frameworks */,
+				2B0D66A51C1C56FB00737948 /* libarpack.2.dylib in Frameworks */,
+				2B0D66A61C1C56FB00737948 /* libcamd.dylib in Frameworks */,
+				2B0D66A71C1C56FB00737948 /* libccalltest.dylib in Frameworks */,
+				2B0D66A91C1C56FB00737948 /* libccolamd.dylib in Frameworks */,
+				2B0D66AA1C1C56FB00737948 /* libfftw3_threads.3.dylib in Frameworks */,
+				2B0D66AB1C1C56FB00737948 /* libfftw3.3.dylib in Frameworks */,
+				2B0D66AC1C1C56FB00737948 /* libfftw3f_threads.3.dylib in Frameworks */,
+				2B0D66AD1C1C56FB00737948 /* libfftw3f.3.dylib in Frameworks */,
+				2B0D66AE1C1C56FB00737948 /* libgcc_s.1.dylib in Frameworks */,
+				2B0D66AF1C1C56FB00737948 /* libgfortran.3.dylib in Frameworks */,
+				2B0D66B01C1C56FB00737948 /* libgit2.dylib in Frameworks */,
+				2B0D66B11C1C56FB00737948 /* libgmp.10.dylib in Frameworks */,
+				2B0D66B21C1C56FB00737948 /* libjulia-debug.dylib in Frameworks */,
+				2B0D66B51C1C56FB00737948 /* libmpfr.4.dylib in Frameworks */,
+				2B0D66B61C1C56FB00737948 /* libpcre2-posix.0.dylib in Frameworks */,
+				2B0D66B71C1C56FB00737948 /* libquadmath.0.dylib in Frameworks */,
+				2B0D66B81C1C56FB00737948 /* libRmath-julia.dylib in Frameworks */,
+				2B0D66B91C1C56FB00737948 /* libspqr.dylib in Frameworks */,
+				2B0D66BA1C1C56FB00737948 /* libsuitesparse_wrapper.dylib in Frameworks */,
+				2B0D66BB1C1C56FB00737948 /* libsuitesparseconfig.dylib in Frameworks */,
+				2B0D66BC1C1C56FB00737948 /* libumfpack.dylib in Frameworks */,
+				2B0D66BD1C1C56FB00737948 /* sys-debug.dylib in Frameworks */,
+				2B0D66741C1C56FA00737948 /* libcholmod.dylib in Frameworks */,
+				2B0D66751C1C56FA00737948 /* libcolamd.dylib in Frameworks */,
+				2B0D66761C1C56FA00737948 /* libdSFMT.dylib in Frameworks */,
+				2B0D66771C1C56FA00737948 /* libjulia.dylib in Frameworks */,
+				2B0D66781C1C56FA00737948 /* libopenblas64_.dylib in Frameworks */,
+				2B0D66791C1C56FA00737948 /* libpcre2-8.0.dylib in Frameworks */,
+				2B0D667A1C1C56FA00737948 /* sys.dylib in Frameworks */,
+				2BD164901C1350B2002B5BC5 /* Accelerate.framework in Frameworks */,
+				2BD164911C1350B2002B5BC5 /* AudioToolbox.framework in Frameworks */,
+				2BD164921C1350B2002B5BC5 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0D672F1C1C579000737948 /* julia */ = {
+			isa = PBXGroup;
+			children = (
+				2B0D67301C1C57A200737948 /* include */,
+				2B0D67311C1C57B000737948 /* lib */,
+			);
+			name = julia;
+			sourceTree = "<group>";
+		};
+		2B0D67301C1C57A200737948 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2B0D66FB1C1C573600737948 /* arraylist.h */,
+				2B0D66FC1C1C573600737948 /* bitvector.h */,
+				2B0D66FD1C1C573600737948 /* dirpath.h */,
+				2B0D66FE1C1C573600737948 /* dtypes.h */,
+				2B0D66FF1C1C573600737948 /* END.h */,
+				2B0D67001C1C573600737948 /* ENTRY.amd64.h */,
+				2B0D67011C1C573600737948 /* ENTRY.i387.h */,
+				2B0D67021C1C573600737948 /* hashing.h */,
+				2B0D67031C1C573600737948 /* htable.h */,
+				2B0D67041C1C573600737948 /* ios.h */,
+				2B0D67051C1C573600737948 /* julia_version.h */,
+				2B0D67061C1C573600737948 /* julia.h */,
+				2B0D67071C1C573600737948 /* libsupport.h */,
+				2B0D67081C1C573600737948 /* MurmurHash3.h */,
+				2B0D67091C1C573600737948 /* options.h */,
+				2B0D670A1C1C573600737948 /* platform.h */,
+				2B0D670B1C1C573600737948 /* ptrhash.h */,
+				2B0D670C1C1C573600737948 /* strtod.h */,
+				2B0D670D1C1C573600737948 /* timefuncs.h */,
+				2B0D670E1C1C573600737948 /* utf8.h */,
+				2B0D670F1C1C573600737948 /* utils.h */,
+				2B0D67101C1C573600737948 /* uv-darwin.h */,
+				2B0D67111C1C573600737948 /* uv-errno.h */,
+				2B0D67121C1C573600737948 /* uv-unix.h */,
+				2B0D67131C1C573600737948 /* uv-version.h */,
+				2B0D67141C1C573600737948 /* uv.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		2B0D67311C1C57B000737948 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2B0D667C1C1C56FB00737948 /* libamd.dylib */,
+				2B0D667D1C1C56FB00737948 /* libarpack.2.dylib */,
+				2B0D667E1C1C56FB00737948 /* libcamd.dylib */,
+				2B0D667F1C1C56FB00737948 /* libccalltest.dylib */,
+				2B0D66801C1C56FB00737948 /* libccalltest.dylib.dSYM */,
+				2B0D66811C1C56FB00737948 /* libccolamd.dylib */,
+				2B0D66821C1C56FB00737948 /* libfftw3_threads.3.dylib */,
+				2B0D66831C1C56FB00737948 /* libfftw3.3.dylib */,
+				2B0D66841C1C56FB00737948 /* libfftw3f_threads.3.dylib */,
+				2B0D66851C1C56FB00737948 /* libfftw3f.3.dylib */,
+				2B0D66861C1C56FB00737948 /* libgcc_s.1.dylib */,
+				2B0D66871C1C56FB00737948 /* libgfortran.3.dylib */,
+				2B0D66881C1C56FB00737948 /* libgit2.dylib */,
+				2B0D66891C1C56FB00737948 /* libgmp.10.dylib */,
+				2B0D668A1C1C56FB00737948 /* libjulia-debug.dylib */,
+				2B0D668B1C1C56FB00737948 /* libjulia-debug.dylib.dSYM */,
+				2B0D668C1C1C56FB00737948 /* libjulia.dylib.dSYM */,
+				2B0D668D1C1C56FB00737948 /* libmpfr.4.dylib */,
+				2B0D668E1C1C56FB00737948 /* libpcre2-posix.0.dylib */,
+				2B0D668F1C1C56FB00737948 /* libquadmath.0.dylib */,
+				2B0D66901C1C56FB00737948 /* libRmath-julia.dylib */,
+				2B0D66911C1C56FB00737948 /* libspqr.dylib */,
+				2B0D66921C1C56FB00737948 /* libsuitesparse_wrapper.dylib */,
+				2B0D66931C1C56FB00737948 /* libsuitesparseconfig.dylib */,
+				2B0D66941C1C56FB00737948 /* libumfpack.dylib */,
+				2B0D66951C1C56FB00737948 /* sys-debug.dylib */,
+				2B0D66961C1C56FB00737948 /* libarpack.2.dylib */,
+				2B0D66971C1C56FB00737948 /* libfftw3_threads.3.dylib */,
+				2B0D66981C1C56FB00737948 /* libfftw3.3.dylib */,
+				2B0D66991C1C56FB00737948 /* libfftw3f_threads.3.dylib */,
+				2B0D669A1C1C56FB00737948 /* libfftw3f.3.dylib */,
+				2B0D669B1C1C56FB00737948 /* libgmp.10.dylib */,
+				2B0D669C1C1C56FB00737948 /* libmpfr.4.dylib */,
+				2B0D669D1C1C56FB00737948 /* libopenlibm.dylib.1.0 */,
+				2B0D669E1C1C56FB00737948 /* libopenlibm.dylib.1.0 */,
+				2B0D669F1C1C56FB00737948 /* libopenlibm.dylib.1.0 */,
+				2B0D66A01C1C56FB00737948 /* libopenspecfun.dylib.1.0 */,
+				2B0D66A11C1C56FB00737948 /* libopenspecfun.dylib.1.0 */,
+				2B0D66A21C1C56FB00737948 /* libopenspecfun.dylib.1.0 */,
+				2B0D66A31C1C56FB00737948 /* libpcre2-posix.0.dylib */,
+				2B0D66711C1C564000737948 /* libcolamd.dylib */,
+				2B0D66651C1C557A00737948 /* libcholmod.dylib */,
+				2B0D66661C1C557A00737948 /* libopenblas64_.dylib */,
+				2B0D66671C1C557A00737948 /* libdSFMT.dylib */,
+				2B0D66681C1C557A00737948 /* libpcre2-8.0.dylib */,
+				2B0D66621C1C53E400737948 /* sys.dylib */,
+				2B9B28421C1462E3003CC276 /* libjulia.dylib */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		2BD164511C134FF0002B5BC5 = {
+			isa = PBXGroup;
+			children = (
+				2BD1645C1C134FF1002B5BC5 /* AUJulia */,
+				2BD164721C13501B002B5BC5 /* AUJuliaFramework */,
+				2BD164931C1350B8002B5BC5 /* Frameworks */,
+				2BD1645B1C134FF1002B5BC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BD1645B1C134FF1002B5BC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BD1645A1C134FF1002B5BC5 /* AUJulia.app */,
+				2BD164711C13501B002B5BC5 /* AUJuliaFramework.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BD1645C1C134FF1002B5BC5 /* AUJulia */ = {
+			isa = PBXGroup;
+			children = (
+				2BD1645D1C134FF1002B5BC5 /* AppDelegate.swift */,
+				2BD1645F1C134FF1002B5BC5 /* ViewController.swift */,
+				2BD164611C134FF1002B5BC5 /* Assets.xcassets */,
+				2BD164631C134FF1002B5BC5 /* Main.storyboard */,
+				2BD164661C134FF1002B5BC5 /* Info.plist */,
+			);
+			path = AUJulia;
+			sourceTree = "<group>";
+		};
+		2BD164721C13501B002B5BC5 /* AUJuliaFramework */ = {
+			isa = PBXGroup;
+			children = (
+				2B5696591C1D9E3D00238846 /* aujulia.jl */,
+				2BD1648C1C135070002B5BC5 /* Apple Utility Classes */,
+				2BD1647E1C13505E002B5BC5 /* JuliaOscillatorKernel.hpp */,
+				2BD1647F1C13505E002B5BC5 /* JuliaOscillator.h */,
+				2BD164801C13505E002B5BC5 /* JuliaOscillator.mm */,
+				2BD164731C13501B002B5BC5 /* AUJuliaFramework.h */,
+				2BD164751C13501B002B5BC5 /* Info.plist */,
+			);
+			path = AUJuliaFramework;
+			sourceTree = "<group>";
+		};
+		2BD1648C1C135070002B5BC5 /* Apple Utility Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2BD164841C13506B002B5BC5 /* DSPKernel.hpp */,
+				2BD164851C13506B002B5BC5 /* DSPKernel.mm */,
+				2BD164861C13506B002B5BC5 /* ParameterRamper.hpp */,
+			);
+			name = "Apple Utility Classes";
+			sourceTree = "<group>";
+		};
+		2BD164931C1350B8002B5BC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B0D672F1C1C579000737948 /* julia */,
+				2BD1648D1C1350B2002B5BC5 /* Accelerate.framework */,
+				2BD1648E1C1350B2002B5BC5 /* AudioToolbox.framework */,
+				2BD1648F1C1350B2002B5BC5 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BD1646E1C13501B002B5BC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD164741C13501B002B5BC5 /* AUJuliaFramework.h in Headers */,
+				2BD164811C13505E002B5BC5 /* JuliaOscillatorKernel.hpp in Headers */,
+				2BD164821C13505E002B5BC5 /* JuliaOscillator.h in Headers */,
+				2BD164881C13506B002B5BC5 /* DSPKernel.hpp in Headers */,
+				2BD1648A1C13506B002B5BC5 /* ParameterRamper.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BD164591C134FF0002B5BC5 /* AUJulia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD164691C134FF1002B5BC5 /* Build configuration list for PBXNativeTarget "AUJulia" */;
+			buildPhases = (
+				2BD164561C134FF0002B5BC5 /* Sources */,
+				2BD164571C134FF0002B5BC5 /* Frameworks */,
+				2BD164581C134FF0002B5BC5 /* Resources */,
+				2BD1647D1C13501B002B5BC5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD164771C13501B002B5BC5 /* PBXTargetDependency */,
+			);
+			name = AUJulia;
+			productName = AUJulia;
+			productReference = 2BD1645A1C134FF1002B5BC5 /* AUJulia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BD164701C13501B002B5BC5 /* AUJuliaFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD1647A1C13501B002B5BC5 /* Build configuration list for PBXNativeTarget "AUJuliaFramework" */;
+			buildPhases = (
+				2BD1646C1C13501B002B5BC5 /* Sources */,
+				2BD1646D1C13501B002B5BC5 /* Frameworks */,
+				2BD1646E1C13501B002B5BC5 /* Headers */,
+				2BD1646F1C13501B002B5BC5 /* Resources */,
+				2B9B28461C146509003CC276 /* CopyFiles */,
+				2B0D67321C1C6A7200737948 /* CopyFiles */,
+				2B56965B1C1DA87500238846 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUJuliaFramework;
+			productName = AUJuliaFramework;
+			productReference = 2BD164711C13501B002B5BC5 /* AUJuliaFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BD164521C134FF0002B5BC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ales Tsurko";
+				TargetAttributes = {
+					2BD164591C134FF0002B5BC5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					2BD164701C13501B002B5BC5 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 2BD164551C134FF0002B5BC5 /* Build configuration list for PBXProject "AUJulia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BD164511C134FF0002B5BC5;
+			productRefGroup = 2BD1645B1C134FF1002B5BC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BD164591C134FF0002B5BC5 /* AUJulia */,
+				2BD164701C13501B002B5BC5 /* AUJuliaFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BD164581C134FF0002B5BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD164621C134FF1002B5BC5 /* Assets.xcassets in Resources */,
+				2BD164651C134FF1002B5BC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD1646F1C13501B002B5BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B56965A1C1D9E3E00238846 /* aujulia.jl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BD164561C134FF0002B5BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD164601C134FF1002B5BC5 /* ViewController.swift in Sources */,
+				2BD1645E1C134FF1002B5BC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD1646C1C13501B002B5BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD164891C13506B002B5BC5 /* DSPKernel.mm in Sources */,
+				2BD164831C13505E002B5BC5 /* JuliaOscillator.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD164771C13501B002B5BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD164701C13501B002B5BC5 /* AUJuliaFramework */;
+			targetProxy = 2BD164761C13501B002B5BC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BD164631C134FF1002B5BC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD164641C134FF1002B5BC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BD164671C134FF1002B5BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BD164681C134FF1002B5BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2BD1646A1C134FF1002B5BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AUJulia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.alestsurko.AUJulia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BD1646B1C134FF1002B5BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AUJulia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.alestsurko.AUJulia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BD1647B1C13501B002B5BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AUJuliaFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks $(PROJECT_DIR)/julia/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/julia/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = by.alestsurko.AUJuliaFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BD1647C1C13501B002B5BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = AUJuliaFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks $(PROJECT_DIR)/julia/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/julia/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = by.alestsurko.AUJuliaFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD164551C134FF0002B5BC5 /* Build configuration list for PBXProject "AUJulia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD164671C134FF1002B5BC5 /* Debug */,
+				2BD164681C134FF1002B5BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD164691C134FF1002B5BC5 /* Build configuration list for PBXNativeTarget "AUJulia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD1646A1C134FF1002B5BC5 /* Debug */,
+				2BD1646B1C134FF1002B5BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD1647A1C13501B002B5BC5 /* Build configuration list for PBXNativeTarget "AUJuliaFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD1647B1C13501B002B5BC5 /* Debug */,
+				2BD1647C1C13501B002B5BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BD164521C134FF0002B5BC5 /* Project object */;
+}
