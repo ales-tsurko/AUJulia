@@ -26,9 +26,9 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        AUAudioUnit.registerSubclass(JuliaOscillator.self, asComponentDescription: JuliaOscillator.audioComponentDescription(), name: "JuliaOscillator", version: UInt32.max)
+        AUAudioUnit.registerSubclass(JuliaOscillator.self, as: JuliaOscillator.audioComponentDescription(), name: "JuliaOscillator", version: UInt32.max)
         
-        AVAudioUnitGenerator.instantiateWithComponentDescription(JuliaOscillator.audioComponentDescription(), options: []) {
+        AVAudioUnitGenerator.instantiate(with: JuliaOscillator.audioComponentDescription(), options: []) {
             audioUnit, error in
             
             guard audioUnit != nil else {
@@ -36,9 +36,9 @@ class ViewController: NSViewController {
                 return
             }
             
-            self.audioUnit = audioUnit!.AUAudioUnit as! JuliaOscillator
+            self.audioUnit = audioUnit!.auAudioUnit as! JuliaOscillator
             
-            self.engine.attachNode(audioUnit!)
+            self.engine.attach(audioUnit!)
             self.engine.connect(audioUnit!, to: self.engine.mainMixerNode, format: self.audioUnit!.format)
             
             do {
@@ -54,32 +54,32 @@ class ViewController: NSViewController {
     func linkParametersWithGUI() {
         guard let paramTree = self.audioUnit!.parameterTree else { return }
         
-        self.frequencyParameter = paramTree.valueForKey("frequency") as? AUParameter
-        self.amplitudeParameter = paramTree.valueForKey("amplitude") as? AUParameter
+        self.frequencyParameter = paramTree.value(forKey: "frequency") as? AUParameter
+        self.amplitudeParameter = paramTree.value(forKey: "amplitude") as? AUParameter
         
         self.frequencySlider.minValue = Double(self.frequencyParameter.minValue)
         self.frequencySlider.maxValue = Double(self.frequencyParameter.maxValue)
         self.amplitudeSlider.minValue = Double(self.amplitudeParameter.minValue)
         self.amplitudeSlider.maxValue = Double(self.amplitudeParameter.maxValue)
-        
-        paramTree.tokenByAddingParameterObserver{
+
+        paramTree.token(byAddingParameterObserver: {
             address, value in
-            dispatch_async(dispatch_get_main_queue()) {
+            DispatchQueue.main.async {
                 if address == self.frequencyParameter.address {
                     self.frequencySlider.floatValue = self.frequencyParameter.value
-                    self.frequencyValueLabel.stringValue = self.frequencyParameter.stringFromValue(nil)
+                    self.frequencyValueLabel.stringValue = self.frequencyParameter.string(fromValue: nil)
                 }
                 else if address == self.amplitudeParameter.address {
                     self.amplitudeSlider.floatValue = self.amplitudeParameter.value
-                    self.amplitudeValueLabel.stringValue = self.amplitudeParameter.stringFromValue(nil)
+                    self.amplitudeValueLabel.stringValue = self.amplitudeParameter.string(fromValue: nil)
                 }
             }
-        }
+        })
         
         frequencySlider.floatValue = frequencyParameter.value
         amplitudeSlider.floatValue = amplitudeParameter.value
-        frequencyValueLabel.stringValue = frequencyParameter.stringFromValue(nil)
-        amplitudeValueLabel.stringValue = amplitudeParameter.stringFromValue(nil)
+        frequencyValueLabel.stringValue = frequencyParameter.string(fromValue: nil)
+        amplitudeValueLabel.stringValue = amplitudeParameter.string(fromValue: nil)
     }
     
     @IBAction func amplitudeSliderAction(sender: NSSlider) {
